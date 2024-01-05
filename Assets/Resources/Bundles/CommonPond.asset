@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: CommonPond
+  m_EditorClassIdentifier: 
+  bundleName: Common Pond
+  input:
+  - itemObject: {fileID: 11400000, guid: 94150f5aefea2354abe65b38742309d6, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: f921d142feb356a4b9f47f5ce90ef0f5, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 4a89fec969890df4ca3688eb553f829a, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: c936e52b3a4e21e429c195aa1d54510e, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: df64a812d85bd8a4091848cb6a29f3e0, type: 2}
+    itemCount: 1
+  bundleRarity: 0

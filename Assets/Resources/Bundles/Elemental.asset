@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: Elemental
+  m_EditorClassIdentifier: 
+  bundleName: Elemental
+  input:
+  - itemObject: {fileID: 11400000, guid: 5060dc8a8cf05224da01eb8087b2ecdd, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 432c08b2c23382044b9d0ecf3daf9ebd, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 1c6ee4ffa198f9143b49935140c5427e, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 41743de389ad1ba4da938c4291db97b2, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+    itemCount: 1
+  bundleRarity: 1

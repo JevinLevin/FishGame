@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: CommonOcean
+  m_EditorClassIdentifier: 
+  bundleName: Common Ocean
+  input:
+  - itemObject: {fileID: 11400000, guid: 5ff3c2e897838fc4a9ff6d1fd4b756a8, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 7c8595c2b6b28634eb7de3abb1823bf0, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: a8172d1884cbf2b4ba7867fd6f31905e, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: e4e4232807faff04cbb55108106699eb, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: 53e66eb8a73a44c4690475931c435080, type: 2}
+    itemCount: 1
+  bundleRarity: 0

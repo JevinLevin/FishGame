@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: CommonNight
+  m_EditorClassIdentifier: 
+  bundleName: Common Night
+  input:
+  - itemObject: {fileID: 11400000, guid: 3545e6055696090479ec9555c90d25b1, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 5a7f1fe2aabb8624680c505647ec2553, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: be0f9f460175d054cac47a7162185c1d, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 827a945a59fbe2a44b80acce1c2141e9, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+    itemCount: 1
+  bundleRarity: 0

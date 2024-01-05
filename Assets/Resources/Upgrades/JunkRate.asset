@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d12de447a671c646a55c6d29f9b43d4, type: 3}
+  m_Name: JunkRate
+  m_EditorClassIdentifier: 
+  upgradeID: 5
+  upgradeName: Junk Rate
+  upgradeDesc: Decreases the chance of accidentally catching junk
+  upgradeIcon: {fileID: 990022215, guid: ae51f7471de31cb4ca99e9e6b95e78e0, type: 3}
+  defaultStageDesc: Default
+  upgradeStages:
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 9bb5066db534afc40826b1280fab9bff, type: 2}
+      itemCount: 3
+    - itemObject: {fileID: 11400000, guid: 098ba8497ab056249b4ff7a61bd6b319, type: 2}
+      itemCount: 3
+    - itemObject: {fileID: 11400000, guid: 593012a592196464b8736144446d66eb, type: 2}
+      itemCount: 3
+    - itemObject: {fileID: 11400000, guid: 9122e959b77a4ad499fd72d530bb5c2c, type: 2}
+      itemCount: 3
+    stageDesc: 75% Chance
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 9bb5066db534afc40826b1280fab9bff, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 098ba8497ab056249b4ff7a61bd6b319, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 593012a592196464b8736144446d66eb, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 9122e959b77a4ad499fd72d530bb5c2c, type: 2}
+      itemCount: 25
+    stageDesc: 50% Chance
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 9bb5066db534afc40826b1280fab9bff, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: 098ba8497ab056249b4ff7a61bd6b319, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: 593012a592196464b8736144446d66eb, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: 9122e959b77a4ad499fd72d530bb5c2c, type: 2}
+      itemCount: 250
+    stageDesc: 20% Chance
+  upgradeIndex: 5

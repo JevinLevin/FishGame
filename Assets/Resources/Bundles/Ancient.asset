@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: Ancient
+  m_EditorClassIdentifier: 
+  bundleName: Ancient
+  input:
+  - itemObject: {fileID: 11400000, guid: 0a75470247a1e614cb4a5451c046087f, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 0eec42687aee77343b2db7df2421cac1, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 53a31f07587e6e946a4fcd0235586442, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 48171d8ad0009394d873465a296240b7, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: 75dda3e5b00d5d44eaf711da7a40aca0, type: 2}
+    itemCount: 1
+  bundleRarity: 3

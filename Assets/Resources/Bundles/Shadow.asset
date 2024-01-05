@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: Shadow
+  m_EditorClassIdentifier: 
+  bundleName: Shadow
+  input:
+  - itemObject: {fileID: 11400000, guid: b1c18e5172ab4cb448ad42b5ad764711, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: dd7bc6ade5b99f1418dfb1d085dc5473, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 8ab0857947a4ab34aa19728c87d4a247, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 3b03ecfa46d61b64b83206dbc2cc3ec6, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: 35bfdfde880e92846b08215f7e8039b6, type: 2}
+    itemCount: 1
+  bundleRarity: 1

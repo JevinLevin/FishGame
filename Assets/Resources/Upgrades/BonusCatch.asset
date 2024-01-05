@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d12de447a671c646a55c6d29f9b43d4, type: 3}
+  m_Name: BonusCatch
+  m_EditorClassIdentifier: 
+  upgradeID: 3
+  upgradeName: Bonus Catch Chance
+  upgradeDesc: Increases the chance of catching bonus fish!
+  upgradeIcon: {fileID: -632962222, guid: ae51f7471de31cb4ca99e9e6b95e78e0, type: 3}
+  defaultStageDesc: 0%
+  upgradeStages:
+  - cost:
+    - itemObject: {fileID: 11400000, guid: df64a812d85bd8a4091848cb6a29f3e0, type: 2}
+      itemCount: 5
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 5
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 1
+    stageDesc: 10%
+  - cost:
+    - itemObject: {fileID: 11400000, guid: df64a812d85bd8a4091848cb6a29f3e0, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 10
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 1
+    stageDesc: 25%
+  - cost:
+    - itemObject: {fileID: 11400000, guid: df64a812d85bd8a4091848cb6a29f3e0, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 5
+    stageDesc: 50%
+  - cost:
+    - itemObject: {fileID: 11400000, guid: df64a812d85bd8a4091848cb6a29f3e0, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 10
+    stageDesc: 100%
+  - cost:
+    - itemObject: {fileID: 11400000, guid: df64a812d85bd8a4091848cb6a29f3e0, type: 2}
+      itemCount: 1000
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 1000
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 200
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 20
+    - itemObject: {fileID: 11400000, guid: e5c6c5430b2075b49a229834a296bf67, type: 2}
+      itemCount: 1
+    stageDesc: 250%
+  upgradeIndex: 3

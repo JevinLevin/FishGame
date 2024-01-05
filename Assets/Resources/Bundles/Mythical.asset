@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: Mythical
+  m_EditorClassIdentifier: 
+  bundleName: Mythical
+  input:
+  - itemObject: {fileID: 11400000, guid: bfd9b3b2ec109e64eb1ee8db72bc2abe, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: eeacad6d14b9bee4abdfc090fd2903e3, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: cf1b2357ee344ad4baf078e5380b883e, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 3f9b7aa825fdbd44a8c6f884cc70e7ee, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: ee26b3b9b7e1a184d9ea3c6cfdb1e8d8, type: 2}
+    itemCount: 1
+  bundleRarity: 4

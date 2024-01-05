@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: CommonRiver
+  m_EditorClassIdentifier: 
+  bundleName: Common River
+  input:
+  - itemObject: {fileID: 11400000, guid: 87426ba2575493749960025432991b75, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: dcd3e650545c2564b938d4baa9519608, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 09ab5541be4821b4b95302eba356139b, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: c09a020812c0f5741aeff1f0d49a5ba3, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: 50dce979a1439474d87fda8f4804c17f, type: 2}
+    itemCount: 1
+  bundleRarity: 0

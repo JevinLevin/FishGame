@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: Animals
+  m_EditorClassIdentifier: 
+  bundleName: Animals
+  input:
+  - itemObject: {fileID: 11400000, guid: e0c4cab9ce3d72c4083ffb8fc4b5cde1, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: a5523cfdb955810469c7bf1056effd3c, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: f7143f9afba837f46a4c0a7c4fc3685a, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 073cfad5b1f009b4fabad3d17b40cf58, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+    itemCount: 1
+  bundleRarity: 1

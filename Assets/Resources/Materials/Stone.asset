@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2eb6f097c3c0543994b7953a4364d6, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: 
+  lootType: 1
+  lootRarity: 0
+  lootName: Stone
+  lootId: stone
+  lootSprite: {fileID: 1329756366, guid: ae51f7471de31cb4ca99e9e6b95e78e0, type: 3}

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d12de447a671c646a55c6d29f9b43d4, type: 3}
+  m_Name: FishingSpeed
+  m_EditorClassIdentifier: 
+  upgradeID: 1
+  upgradeName: Fishing Speed
+  upgradeDesc: Decreases the time taken to catch a new fish
+  upgradeIcon: {fileID: 174661301, guid: ae51f7471de31cb4ca99e9e6b95e78e0, type: 3}
+  defaultStageDesc: 10s
+  upgradeStages:
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 1
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 1
+    stageDesc: 9.5s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 3
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 3
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 1
+    stageDesc: 9s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 5
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 5
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 3
+    stageDesc: 8.5s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 10
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 10
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 5
+    stageDesc: 8s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 10
+    - itemObject: {fileID: 11400000, guid: 6f2230af3fbc37944a1b6548539ee358, type: 2}
+      itemCount: 1
+    stageDesc: 7.5s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 50
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 50
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 6f2230af3fbc37944a1b6548539ee358, type: 2}
+      itemCount: 3
+    stageDesc: 7s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 50
+    - itemObject: {fileID: 11400000, guid: 6f2230af3fbc37944a1b6548539ee358, type: 2}
+      itemCount: 5
+    stageDesc: 6s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: 6f2230af3fbc37944a1b6548539ee358, type: 2}
+      itemCount: 10
+    - itemObject: {fileID: 11400000, guid: 75dda3e5b00d5d44eaf711da7a40aca0, type: 2}
+      itemCount: 1
+    stageDesc: 5s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 500
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 500
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 250
+    - itemObject: {fileID: 11400000, guid: 6f2230af3fbc37944a1b6548539ee358, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 75dda3e5b00d5d44eaf711da7a40aca0, type: 2}
+      itemCount: 3
+    stageDesc: 4s
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 3eefb0d070a36fd43911515c9ddada79, type: 2}
+      itemCount: 1000
+    - itemObject: {fileID: 11400000, guid: 90cf09454cf19aa4a8a7e00205c2b1ef, type: 2}
+      itemCount: 1000
+    - itemObject: {fileID: 11400000, guid: d2f17a504cf086f4e897fe98d7a99fe5, type: 2}
+      itemCount: 500
+    - itemObject: {fileID: 11400000, guid: 6f2230af3fbc37944a1b6548539ee358, type: 2}
+      itemCount: 50
+    - itemObject: {fileID: 11400000, guid: 75dda3e5b00d5d44eaf711da7a40aca0, type: 2}
+      itemCount: 5
+    - itemObject: {fileID: 11400000, guid: ee26b3b9b7e1a184d9ea3c6cfdb1e8d8, type: 2}
+      itemCount: 1
+    stageDesc: 2s
+  upgradeIndex: 1

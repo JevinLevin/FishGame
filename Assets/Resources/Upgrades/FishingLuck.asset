@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d12de447a671c646a55c6d29f9b43d4, type: 3}
+  m_Name: FishingLuck
+  m_EditorClassIdentifier: 
+  upgradeID: 2
+  upgradeName: Fishing Luck
+  upgradeDesc: Increases the chance of catching high-rarity fish
+  upgradeIcon: {fileID: -1383541006, guid: ae51f7471de31cb4ca99e9e6b95e78e0, type: 3}
+  defaultStageDesc: Default
+  upgradeStages:
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 53e66eb8a73a44c4690475931c435080, type: 2}
+      itemCount: 3
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 3
+    stageDesc: Rare+ x2 Chance
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 53e66eb8a73a44c4690475931c435080, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 10
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 1
+    stageDesc: Epic+ x2 Chance
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 53e66eb8a73a44c4690475931c435080, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 25
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 5
+    stageDesc: Legendary+ x2 Chance
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 53e66eb8a73a44c4690475931c435080, type: 2}
+      itemCount: 500
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 100
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 10
+    stageDesc: Transcendant x2 Chance
+  - cost:
+    - itemObject: {fileID: 11400000, guid: 53e66eb8a73a44c4690475931c435080, type: 2}
+      itemCount: 2500
+    - itemObject: {fileID: 11400000, guid: 547bc182894f40140849b4083d0142d5, type: 2}
+      itemCount: 200
+    - itemObject: {fileID: 11400000, guid: 060688d1414c7a34db7f4a631e58c0b2, type: 2}
+      itemCount: 20
+    - itemObject: {fileID: 11400000, guid: 75dda3e5b00d5d44eaf711da7a40aca0, type: 2}
+      itemCount: 1
+    stageDesc: Rare+ x3 Chance
+  upgradeIndex: 2

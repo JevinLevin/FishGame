@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: Colorful
+  m_EditorClassIdentifier: 
+  bundleName: Colourful
+  input:
+  - itemObject: {fileID: 11400000, guid: 156721faac6fc8346b25e5b4a0352e0c, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 09f847c85131f3d46b82e2bc65f86e9b, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 253e24ac1eb1efa47ae492cd7ded3146, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: d0f6eec9fffabbb469527820e4cc3e1c, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: e5c6c5430b2075b49a229834a296bf67, type: 2}
+    itemCount: 1
+  bundleRarity: 3

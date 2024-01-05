@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 814e202e5c19f7d41988b928b56f4147, type: 3}
+  m_Name: Cute
+  m_EditorClassIdentifier: 
+  bundleName: Cute
+  input:
+  - itemObject: {fileID: 11400000, guid: 5e5c263889c637b40b735f9acd5a9482, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: 86d02bc1abf9a714b86dc103179988bf, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: edbf30dfa599aa840ac110104d201945, type: 2}
+    itemCount: 1
+  - itemObject: {fileID: 11400000, guid: fd19778d3b9edb743bdee3e29ad1137f, type: 2}
+    itemCount: 1
+  output:
+  - itemObject: {fileID: 11400000, guid: 6f2230af3fbc37944a1b6548539ee358, type: 2}
+    itemCount: 1
+  bundleRarity: 2

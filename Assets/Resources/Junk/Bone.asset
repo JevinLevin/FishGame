@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f2eb6f097c3c0543994b7953a4364d6, type: 3}
+  m_Name: Bone
+  m_EditorClassIdentifier: 
+  lootType: 2
+  lootRarity: 0
+  lootName: Bone
+  lootId: bone
+  lootSprite: {fileID: 970466702, guid: 02d4ec20cf6432a4c9c3297b444c734d, type: 3}
